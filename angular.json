@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "FirstProject": {
+    "Landing_page": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -50,10 +50,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "FirstProject:build:production"
+              "buildTarget": "Landing_page:build:production"
             },
             "development": {
-              "buildTarget": "FirstProject:build:development"
+              "buildTarget": "Landing_page:build:development"
             }
           },
           "defaultConfiguration": "development"
